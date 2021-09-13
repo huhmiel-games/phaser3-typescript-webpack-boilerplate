@@ -33,5 +33,7 @@ This template contains 5 example scenes:
 
 ## Credits
 Phaser and Phaser3-project-template: richard Davey https://github.com/photonstorm/phaser3-project-template
+
 Background image: luis Zuno https://ansimuz.itch.io/sideview-fantasy-patreon-collectio
+
 Font: Fonts For Flash https://www.dafont.com/fr/fff-galaxy.font
