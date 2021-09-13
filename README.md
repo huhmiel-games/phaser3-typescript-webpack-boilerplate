@@ -11,29 +11,6 @@ Based on https://github.com/photonstorm/phaser3-project-template
 After cloning the repo, run `npm install` from your project directory. Then, you can start the local development
 server by running `npm start`.
 
-Open the .vscode folder and edit launch.json and change the property runtimeExecutable
-```
-{
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}",
-            "runtimeExecutable": "/usr/bin/chromium-browser",  <-- change according to your system
-            "runtimeArgs": [
-                "--new-window",
-                "--remote-debugging-port=9222",
-                "-user-data-dir=\"/${workspaceFolder}/DevProfile\"",
-                "--disable-background-networking"
-            ]
-        }
-    ]
-}
-```
-
 After starting the development server with `npm start`, you can edit any files in the `src` folder
 and webpack will automatically recompile and reload your server (available at `http://localhost:8080`
 by default).
